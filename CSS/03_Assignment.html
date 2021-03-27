@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+	<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+	<style>
+		div
+		{
+			background-color: lightgrey;
+			margin-left: 28px;
+			border: 2px solid black;
+			width: 1198px;
+			height: 553px;
+			position: relative;
+		}
+		div img
+		{
+			width: inherit;
+			height: inherit;
+			transition: all 5s;
+		}
+		div:hover img
+		{
+			transform: translateY(-50%);
+		}
+		div #wrapper
+		{
+			background-color: rgba(0,0,0,0.5);
+			position: absolute;
+			margin-left: -2px;
+			top: 276px;
+			height: 551px;
+			transition: all 5s;
+		}
+		div:hover #wrapper
+		{
+			transform: translateY(50%);
+		}
+		div p
+		{
+			margin-top: -260px;
+			font-size: 20px;
+			word-spacing: 15px;
+			opacity: 0;
+			font-family: 'Faster One', cursive;
+			transition: all 8s;
+		}
+		div:hover p
+		{
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="images/car.jpg">
+		<p>Audi AG is a German automobile manufacturer that designs, engineers, produces, markets and distributes luxury vehicles. Audi is a wholly owned subsidiary of the Volkswagen Group and has its roots at Ingolstadt, Bavaria, Germany. Audi-branded vehicles are produced in nine production facilities worldwide.he company name is based on the Latin translation of the surname of the founder, August Horch. "Horch", meaning "listen" in German, becomes "audi" in Latin. The four rings of the Audi logo each represent one of four car companies that banded together to create Audi's predecessor company, Auto Union. Audi's slogan is Vorsprung durch Technik, meaning "Being Ahead through Technology".[11] Audi, along with fellow German marques BMW and Mercedes-Benz, is among the best-selling luxury automobile brands in the world.</p>
+		<div id="wrapper"></div>
+	</div>
+</body>
+</html>

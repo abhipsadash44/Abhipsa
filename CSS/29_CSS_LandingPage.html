@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>CSS FULL LANDING PAGE</title>
+	<link rel="stylesheet" href="../Bootstrap/MDB/css/bootstrap.css">
+	<link rel="stylesheet" href="../Bootstrap/MDB/css/mdb.css">
+	<link rel="stylesheet" href="../HTML/Images_html/Font/userfont/css/all.css">
+	<style>
+		body
+		{
+			margin: 0px;
+		}
+		#main-nav
+		{
+			background-color: darkslategrey;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		#main-nav h1
+		{
+			color: white;
+			margin: 0px;
+		}
+		#main-nav #nav-items a
+		{
+			color: white;
+			text-decoration: none;
+			margin: 20px;
+			padding: 6px 17px;
+		}
+		#main-nav #nav-items a:hover
+		{
+			background-color: orange;
+			border-radius: 12px;
+			box-shadow: 0 0 10px white;
+		}
+		/*Full Landing Page*/
+		#main-content
+		{
+			background: white url(images/shimla.jpg) no-repeat scroll center;
+			background-size: cover;
+			height: 100vh;
+		}
+		#main-content #main-content-wrapper
+		{
+			background-color: rgba(0,0,0,0.5);
+			height: 100%;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		#main-content #main-content-wrapper h2
+		{
+			margin: 0px;
+			font-size: 30px;
+		}
+		#main-content #main-content-wrapper p
+		{
+			font-size: 16px;
+			margin-left: 20px;
+			margin-right: 20px;
+			text-align: justify;
+		}
+		#main-content #main-content-wrapper button
+		{
+			background-color: orange;
+			padding: 5px 30px;
+			border: none;
+			outline: none;
+			border-radius: 15px;
+			box-shadow: 0 0 10px white;
+		}
+		@media(max-width: 850px)
+		{
+			#main-nav
+			{
+				flex-direction: column;
+			}
+			#nav-items
+			{
+				margin-top: 2px;
+				margin-bottom: 40px;
+			}
+		}
+		@media(min-width: 500px) and (max-width: 720px)
+		{
+			#main-nav
+			{
+				flex-direction: column;
+			}
+			#nav-items a
+			{
+				margin: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav id="main-nav">
+		<h1><span style="color: orange;">Jspider</span> Institute</h1>
+		<div id="nav-items">
+			<a href="#">Home</a>
+			<a href="#">News</a>
+			<button class="btn btn-success btn-sm mt-2" data-toggle='modal' data-target='#login'>LogIn</button>
+			<button class="btn btn-success btn-sm mt-2" data-toggle='modal' data-target='#signup'>Sign Up</button>	
+		</div>
+		<!-- Modal -->
+		<div class="modal" id="login">
+			<div class="modal-dialog">
+				<div class="modal-content animated swing">
+					<div class="modal-header bg-success text-center text-white">
+						<h3>LogIn Here</h3>
+						<button class="close" data-dismiss='modal'><i class="fa fa-window-close"></i></button>
+					</div>
+					<div class="modal-body bg-light">
+						<form>
+							<div class="form-group">
+								<input type="text" placeholder="Enter UserName" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Enter Password" class="form-control">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer bg-success text-white">
+						<input type="Submit" class="btn btn-outline-white">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="signup">
+			<div class="modal-dialog">
+				<div class="modal-content animated swing">
+					<div class="modal-header bg-success text-center text-white">
+						<h3>Sign Up Here</h3>
+						<button class="close" data-dismiss='modal'><i class="fa fa-window-close"></i></button>
+					</div>
+					<div class="modal-body bg-light">
+						<form>
+							<div class="form-group">
+								<input type="text" placeholder="Enter UserName" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Enter Password" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Confirm Password" class="form-control">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer bg-success text-white">
+						<input type="Submit" class="btn btn-outline-white">
+						<input type="Reset" class="btn btn-outline-white">
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div id="main-content">
+		<div id="main-content-wrapper">
+			<h2>Welcome To <span style="color: orange;">UI Technologies</span></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<button>Read More</button>
+		</div>
+	</div>
+<!-- Script Code -->
+<script src="../Bootstrap/MDB/js/jquery.js"></script>
+<script src="../Bootstrap/MDB/js/popper.js"></script>
+<script src="../Bootstrap/MDB/js/bootstrap.js"></script>
+<script src="../Bootstrap/MDB/js/mdb.js"></script>			
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS FANCY LOGIN FORM</title>
+	<link rel="stylesheet" href="../Images_html/font/userfont/css/all.css">
+	<style>
+		body
+		{
+			background-image: url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+			background-size: cover;
+		}
+		#main-block
+		{
+			background: linear-gradient(45deg,orange,blue,green);
+			padding: 20px;
+			width: 300px;
+			border-radius: 20px;
+			box-shadow: 0 0 10px blue;
+			margin: 80px auto;
+			text-align: center;
+		}
+		.form-group
+		{
+			margin: 20px;
+		}
+		input[type='text'],input[type='password'],select
+		{
+			width: 190px;
+			border: none;
+			outline: none;
+			background: none;
+			color: white;
+			font-size: 15px;
+			border-bottom: 2px solid white;
+		}
+		.form-group select
+		{
+			width: 195px;
+		}
+		::placeholder
+		{
+			color: white;
+		}
+		input[type='submit']
+		{
+			width: 195px;
+			margin-top: 5px;
+			padding: 5px;
+			border-radius: 5px;
+			border: none;
+			outline: none;
+			background: linear-gradient(135deg,orange,green,red);
+			color: white; 
+		}
+		input[type='submit']:hover
+		{
+			box-shadow: 0 0 10px white;
+		}
+		#icon
+		{
+			margin-top: -49px;
+		}
+		option
+		{
+			color: black;
+		}
+		.fa
+		{
+			color: white;
+			background-color: blue;
+			font-size: 70px;
+			border-radius: 50%;
+			border: 2px solid blue;
+			box-shadow: 0 0 10px blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="main-block">
+		<div id="icon">
+			<span class="fa fa-user-circle"></span>
+		</div>
+		<form>
+			<div class="form-group">
+				<input type="text" placeholder="Enter User Name">
+			</div>
+			<div class="form-group">
+				<input type="text" placeholder="Enter Email">
+			</div>
+			<div class="form-group">
+				<input type="password" placeholder="Enter Password">
+			</div>
+			<div class="form-group">
+				<input type="password" placeholder="Enter Confirm Password">
+			</div>
+			<div class="form-group">
+				<select>
+					<option>Select Designation</option>
+					<option>Team Lead</option>
+					<option>Manager</option>
+					<option>Sr.Software</option>
+				</select>				
+			</div>
+			<div class="form-group">
+				<input type="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

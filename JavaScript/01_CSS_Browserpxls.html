@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Browser Pixels</title>
+</head>
+<body>
+	<h1 align="center">ScreenSize:<span id="screen"></span></h1>
+<!-- Script Code	 -->
+<script>
+	window.addEventListener('resize',function()
+	{
+		let screenSize=window.innerWidth;
+		document.querySelector('#screen').innerText=screenSize;
+	});
+</script>
+</body>
+</html>

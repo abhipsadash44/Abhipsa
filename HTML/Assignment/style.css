@@ -1,0 +1,72 @@
+body
+{
+	background-image: url(../Images_html/darkwood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+h1
+{
+	font-family: 'Philosopher', sans-serif;
+	text-shadow: 0 0 7px red;
+}
+fieldset legend
+{
+	font-family: 'Charm', cursive;
+	border: 2px solid white;
+	padding: 13px;
+	border-radius: 0 20px 0 20px;
+	background: linear-gradient(45deg,black,black,maroon,brown);
+}
+table
+{
+	table-layout: auto;
+	width: 963px;
+	text-align: justify-all;
+}
+input,textarea
+{
+	border-radius: 5px;
+}
+*:focus
+{
+	outline: none;
+}
+fieldset
+{
+	margin-top: 16px;
+	border-radius: 0 20px 0 20px;
+	margin-right: 175px;
+}
+input[type='Submit']
+{
+	margin-left: 275px;
+	background: linear-gradient(45deg,black,black,maroon,brown);
+	color: white;
+	font-family: 'Charm', cursive;
+	border-radius: 0 10px 0 10px;
+	padding: 5px;
+	width: 65px;
+
+}
+input[type='Reset']
+{
+	margin-left: 5px;
+	background: linear-gradient(45deg,black,black,maroon,brown);
+	color: white;
+	font-family: 'Charm', cursive;
+	border-radius: 0 10px 0 10px;
+	padding: 5px;
+	width: 65px;
+}
+tr
+{
+	font-family: 'comic sans ms',sans-serif;
+}
+div
+{
+	/*margin: 0 40px 0 40px;*/
+	/*margin-right: 100px*/
+	margin-left: 50px;
+}

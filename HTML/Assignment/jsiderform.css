@@ -1,0 +1,30 @@
+h1
+{
+	text-decoration: underline;
+}
+h3
+{
+	text-decoration: underline;
+}
+label
+{
+	font-weight: bolder;
+}
+table
+{
+	line-height: 40px;
+	text-align: justify;
+}
+body
+{
+	align-content: center;
+	text-align: justify;
+}	
+#abc
+{
+	margin-left: 311px;
+}
+fieldset
+{
+	text-align: justify-all;
+}

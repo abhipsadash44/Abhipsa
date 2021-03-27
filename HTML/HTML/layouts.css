@@ -1,0 +1,85 @@
+body
+{
+	margin: 0px;
+}
+header,footer
+{
+	background: linear-gradient(45deg,orange,violet,pink);
+	padding: 20px;
+}
+header h1
+{
+	margin: 0px;
+	text-align: right;
+}
+nav
+{
+	background: radial-gradient(circle,orange,violet,lightpink);
+	padding: 14px;
+}
+nav a
+{
+	text-decoration: none;
+	margin: 20px 85px;
+	font-size: 15px;
+}
+aside
+{
+	background: linear-gradient(45deg,violet,pink);
+	width: 200px;
+	text-align: center;
+	height: 650px;
+	float: left;
+	position: sticky;
+	top: 0px;
+}
+aside a
+{
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	margin-bottom: 40px;
+}
+aside a:hover
+{
+	box-shadow: 0 0 10px blue;
+	border-radius: 20px;
+}
+section
+{
+	background: linear-gradient(175deg,green,pink);
+	margin-left: 200px;
+}
+section article h2
+{
+	margin: 0px;
+	color: beige;
+}
+section article
+{
+	background: linear-gradient(45deg,darkslategrey,violet);
+	padding: 20px;
+	margin: 2px;
+	border-radius: 20px;
+}
+footer
+{
+	margin-left: 200px;
+	line-height: 2px;
+	text-align: center;
+}
+.fa
+{
+	margin-right: 3px;
+}
+p
+{
+	color: white;
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 19px;
+	word-spacing: 5px;
+}
+h2
+{
+	text-decoration: underline;
+}

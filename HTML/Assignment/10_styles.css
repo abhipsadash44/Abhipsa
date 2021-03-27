@@ -1,0 +1,162 @@
+body
+{
+	background-color: black;
+	margin: 0px;
+	scroll-behavior: smooth;
+	font-family: 'Akaya Telivigala', cursive;
+}
+header,footer
+{
+	background: linear-gradient(45deg,cyan,royalblue,steelblue);
+}
+header h1
+{
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	color: beige;
+	text-shadow: 0 0 20px black;
+	margin-top: -37px;
+}
+.fas
+{
+	font-size: 70px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+nav
+{
+	background-color: steelblue;
+	padding: 15px;
+	margin-top: -18px;
+	position: sticky;
+	top: 0px;
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+	margin-left: 140px;
+	font-size: 20px;
+}
+.fa,.fab
+{
+	margin-right: 5px;
+}
+section article
+{
+	border: 2px solid white;
+	width: 300px;
+	height: 400px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+h3
+{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+section article p
+{
+	color: white;
+	line-height: 20px;
+	word-spacing: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+section #edm
+{
+	margin-top: -403px;
+	margin-left: 500px;
+}
+section #pop
+{
+	margin-top: -403px;
+	margin-left: 900px;
+}
+#news #classic,#edmic,#popic,#folk,#instr,#hiphop
+{
+	border: 2px solid auto;
+	width: 87%;
+	height: 500px;
+}
+#about #a,#b
+{
+	width: 87%;
+	height: 280px;
+}
+h2,h1
+{
+	color: white;
+	text-align: center;
+}
+#form #f
+{
+	border: none;
+	margin: 50px 550px;
+	height: 250px;
+	margin-bottom: 135px;
+}
+input[type="text"],input[type="number"],textarea,input[type="Submit"]
+{
+	width: 200px;
+	line-height: 22px;
+	margin-bottom: 15px;
+	outline: none;
+}
+input[type="Submit"]
+{
+	width: 60px;
+	margin-left: 145px;
+}
+h4
+{
+	color: white;
+	font-size: 22px;
+	text-decoration: underline;
+}
+::placeholder
+{
+	color: black;
+}
+footer h5
+{
+	text-decoration: none;
+	line-height: 10px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+footer
+{
+	padding: 15px;
+	margin-bottom: 0px;
+}
+footer a
+{
+	margin-left: 575px;
+	color: white;
+}
+h3
+{
+	border: 2px solid black;
+	margin-top: 0px;
+	background-color: darkslategrey;
+	text-transform: uppercase;
+}
+h5
+{
+	font-weight: normal;
+}
+.head
+{
+	border: 2px solid pink;
+	border-radius: 0px 40px 40px 0px;
+	width: 700px;
+	padding: 15px;
+	background: linear-gradient(30deg,maroon,pink,violet);
+	color: black;
+	letter-spacing: 5px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS TRANSFORM</title>
+	<style>
+		#transform
+		{
+			font-weight: bold;
+			color: beige;
+			background-color: skyblue;
+			width: 108px;
+			padding: 50px;
+			border: 3px solid blue;
+			transition: all 1s linear 0s;	
+		}
+		#transform:hover
+		{
+			color: red;
+			padding: 70px;
+			background-color: yellow;
+			box-shadow: 0 0 10px blue;
+		}
+		#translate
+		{
+			color: beige;
+			background-color: deeppink;
+			margin: 50px;
+			width: 108px;
+			padding: 50px;
+			border: 3px solid blue;
+			transition: all 2s linear 0s;
+		}
+		#translate:hover
+		{
+			transform: perspective(200px) translate3d(100px,100px,-70px);
+		}
+		#rotate
+		{
+			color: beige;
+			background-color: green;
+			margin: 50px;
+			width: 108px;
+			padding: 50px;
+			border: 3px solid blue;
+			transform-origin: left;
+			transition: all 2s linear 0s;
+		}
+		#rotate:hover
+		{
+			transform: perspective(200px) rotateY(90deg);
+		}
+		#scale
+		{
+			color: beige;
+			background-color: maroon;
+			margin: 50px;
+			width: 108px;
+			padding: 50px;
+			border: 3px solid blue;
+			transition: all 2s linear 0s;
+		}
+		#scale:hover
+		{
+			transform: scale(1.5,1.5);
+		}
+		#skew
+		{
+			color: beige;
+			background-color: brown;
+			margin: 50px;
+			width: 108px;
+			padding: 50px;
+			border: 3px solid blue;
+			transition: all 2s linear 0s;
+		}
+		#skew:hover
+		{
+			transform: skew(30deg);
+		}
+	</style>
+</head>
+<body>
+	<div id="transform">
+		TRANSFORMS
+	</div>
+	<div id="translate">
+		TRANSLATE
+	</div>
+	<div id="rotate">
+		ROTATE
+	</div>
+	<div id="scale">
+		SCALE
+	</div>
+	<div id="skew">
+		SKEW
+	</div>
+</body>
+</html>

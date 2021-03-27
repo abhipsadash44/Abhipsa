@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSIGNMENT-09</title>
+		<link rel="stylesheet" href="../Images_html/Font/userfont/css/all.css">
+	<style>
+		body
+		{
+			background-color: steelblue;
+			color: white;
+		}
+		fieldset
+		{
+			border-color: white;
+			margin-top: 70px;
+			margin-right:230px; 
+			margin-left: 230px;
+			padding-bottom: 20px;
+		}
+		table
+		{
+			table-layout: fixed;
+			line-height: 50px;
+		}
+		::placeholder
+		{
+			color: black;
+		}
+		table input
+		{
+			border-radius: 2px;
+			border-style: none;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div id="icon">
+			<i class="fas fa-caret-square-left"></i>
+			<i class="fas fa-caret-square-right"></i>
+		</div>
+		<form>
+			<fieldset>
+				<legend>Registration Details</legend>
+				<form>
+					<table align="center">
+						<tr>
+							<td><label>University:</label></td>
+							<td><input type="text" style="width: 230px"></td>
+						</tr>
+						<tr>
+							<td><label>Institute:</label></td>
+							<td><input type="text" style="width: 230px"></td>
+						</tr>
+						<tr>
+							<td><label>Branch:</label></td>
+							<td>
+								<select>
+									<option>--select--</option>
+									<option>Computer Science</option>
+									<option>Mechanical</option>
+									<option>Electrical</option>
+									<option>Metallurgy</option>
+									<option>Civil Engineering</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label>Degree:</label></td>
+							<td>
+								<select>
+									<option>--select--</option>
+									<option>BE</option>
+									<option>B.Tech</option>
+									<option>M.Tech</option>
+									<option>MCA</option>
+									<option>BA</option>
+								</select>
+								<input type="radio" name="r1" value="Persuing">Persuing
+								<input type="radio" name="r1" value="Completed">Completed
+							</td>	
+						</tr>
+						<tr>
+							<td><label>Average CPI:</label></td>
+							<td id="number">
+								<input type="number" style="width: 30px">upto
+								<input type="number" style="width: 30px">Th Semester
+							</td>
+						</tr>
+						<tr>
+							<td><label>Experience:</label></td>
+							<td><input type="number" style="width: 35px">Years</td>
+						</tr>
+						<tr>
+							<td><label>Your Website or Blog:</label></td>
+							<td><input type="text" placeholder="http://" style="width: 230px"></td>
+						</tr>
+					</table>
+				</form>
+		</fieldset>
+			<h4 align="center">Step 2</h4>
+		</form>
+	</div>
+</body>
+</html>

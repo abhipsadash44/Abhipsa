@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSIGNMENT-09</title>
+	<style>
+		body
+		{
+			background-color: black;
+		}
+		div
+		{
+			position: relative;
+			margin-top: 200px;
+			margin-left: 450px;
+		}
+		div span
+		{
+			width: 15px;
+			height: 15px;
+			display: inline-block;
+			background-color: white;
+			margin: 20px;
+			border-radius: 50%;
+			
+			animation: google 4s linear 0s infinite normal;
+		}
+		@keyframes google
+		{
+			0%
+			{
+				transform: scale(1.6,1.6);
+			}
+		}
+		div span:first-child
+		{
+			background-color: blue;
+			animation-delay: 0.5s;
+
+		}
+		div span:nth-child(2)
+		{
+			background-color: red;
+			animation-delay: 1.0s;
+		}
+		div span:nth-child(3)
+		{
+			background-color: yellow;
+			animation-delay: 1.5s;
+		}
+		div span:nth-child(4)
+		{
+			background-color: green;
+			animation-delay: 2.0s;
+		}
+		div span:nth-child(5)
+		{
+			background-color: cyan;
+			animation-delay: 2.5s;
+		}
+		div span:last-child
+		{
+			background-color: beige;
+			animation-delay: 3.0s;
+		}
+	</style>
+</head>
+<body>
+	 <div>
+	 	<span></span>
+	 	<span></span>
+	 	<span></span>
+	 	<span></span>
+	 	<span></span>
+	 	<span></span>
+	 </div>
+</body>
+</html>

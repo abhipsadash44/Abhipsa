@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSIGNMENT-10</title>
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	<style>
+		body
+		{
+			background: linear-gradient(45deg, rgba(220,174,202,1) 0%, rgba(148,187,233,1) 100%);
+			font-family: 'Akaya Telivigala', cursive;
+			font-size: 18px;
+		}
+		#main
+		{
+			border: 1px solid black;
+		}
+		div p
+		{
+			line-height: 5px;
+		}
+		h1
+		{
+			margin-top: -60px;
+		}
+		img
+		{
+			margin-left: 1140px;
+			margin-top: -110px;
+		}
+		h4
+		{
+			margin: 0px;
+			text-decoration: underline;
+		}
+		#side a
+		{
+			color: black;
+			display: block;
+			padding: 20px;
+			line-height: 30px;
+			text-shadow: 0 0 4px black;
+		}
+		#side a:hover
+		{
+			color: blue;
+		}
+		#right #pgraph
+		{
+			margin-left: 3px;
+			margin-top: 180px;
+			line-height: 20px;
+		}
+		#right #table,tr,th,td
+		{
+			border: 1px solid black;
+			margin-left: 3px;
+			border-collapse: collapse;
+			padding: 20px;
+			margin-top: 68px;
+			margin-bottom: 60px;
+		}
+		#side #olist,#ulist,#Alist,#form
+		{
+			margin-left: 0px;
+			margin-top: 55px;
+		}
+		footer p
+		{
+			padding: 22px;
+			font-size: 16px;
+			line-height: 17px;
+		}
+		input[type='text'],input[type='number'],input[type='date']
+		{
+			background: transparent;
+			outline: none;
+			border-style: solid;
+			border-color: black;		
+		}
+		::placeholder
+		{
+			color: black;
+		}
+		hr
+		{
+			border: 0.1px solid black;
+		}
+		div #side
+		{
+			border: 1px solid black;
+			margin-right: 980px;
+			margin-top: -10px;
+			text-align: center;
+			position: sticky;
+			top: 55px;
+		}
+		div #right
+		{
+			margin-left: 290px;
+			margin-top: -580px;
+			line-height: 30px;
+		}
+		div footer
+		{
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div style="margin: 19px 0px 0px 15px">
+			<h4>Address:</h4>
+			<p>QTR NO. E/4 Erectors'Hostel</p>
+			<p>Bariniput,Jeypore,Koraput</p>
+			<p>Odisha 764006</p>
+		</div>
+		<h1 align="center">RESUME</h1>
+		<img src="images/abhi.jpg" width="100px" height="100px">
+		<hr>
+		<div id="side">
+			<a id="tell" href="#pgraph">TELL ME ABOUT YOURSELF:</a>
+			<a id="edu" href="#table">EDUCATIONAL DETAILS:</a>
+			<a id="hob" href="#olist">HOBBIES:</a>
+			<a id="str" href="#ulist">STRENGTH:</a>
+			<a id="weak" href="#Alist">WEAKNESS:</a>
+			<a id="per" href="#form">PERSONAL DETAILS:</a>
+		</div>
+		<div id="right">
+			<p id="pgraph">"Hi I am Abhipsa Dash and hails from Odisha. I completed my graduation from IGIT Sarang,which is under BPUT University with trade Metallurgical and Materials Engineering and Computer Science as a minor subject".I have completed my 12th from Jupiter +2 Sc College and 10th from Public School Jeypore.My greatest ambition is to see myself fulfillng all the targets of my life.</p>
+			<table id="table">
+				<tr>
+					<th>College/School</th>
+					<th>Stream</th>
+					<th>CGPA/Percentage</th>
+					<th>Year of Passing</th>
+				</tr>
+				<tr>
+					<td>IGIT,Sarang</td>
+					<td>Metallurgy</td>
+					<td>7.48</td>
+					<td>2019</td>
+				</tr>
+				<tr>
+					<td>Jupiter +2 Sc College</td>
+					<td>12<sup>th</sup></td>
+					<td>70.5%</td>
+					<td>2015</td>
+				</tr>
+				<tr>
+					<td>Public School Jeypore</td>
+					<td>10<sup>th</sup></td>
+					<td>70.17%</td>
+					<td>2013</td>
+				</tr>
+				<caption style="text-decoration: underline; font-weight: bold">EDUCATIONAL DETAILS</caption>
+			</table>
+			<ol id="olist">
+				<h4>HOBBIES</h4>
+				<li>Sports</li>
+				<li>Software Development</li>
+				<li>Volunteer Work</li>
+				<li>Dancing</li>
+				<li>Travelling</li>
+				<li>Driving</li>
+			</ol>
+			<ul id="ulist">
+				<h4>STRENGTHS</h4>
+				<li>Punctuality</li>
+				<li>Honesty and Integrity</li>
+				<li>Prioritizing Task</li>
+				<li>Positive Attitude</li>
+				<li>Taking Initiative</li>
+				<li>Flexibility</li>
+			</ul>
+			<ol id="Alist" type="A">
+				<h4>WEAKNESS</h4>
+				<li>Leaving projects unfinished</li>
+				<li>Focus too much on details</li>
+				<li>Trouble saying 'no'</li>
+				<li>Public Speaking</li>
+				<li>Sensitive</li>
+				<li>Lack of Confidence</li>
+			</ol>
+			<form id="form">
+				<h4>PERSONAL DETAILS</h4>
+				<input type="text" placeholder="Name"><br>
+				<input type="text" placeholder="Father's Name"><br>
+				<input type="text" placeholder="Mother's Name"><br>
+				<input type="number" placeholder="Mobile No."><br>
+				<input type="text" placeholder="Languages Known"><br>
+				<input type="text" placeholder="Email.ID"><br>
+				<input type="text" placeholder="Nationality"><br>
+				<input type="date">
+			</form>
+		</div>
+		<hr style="margin-top: 150px">
+		<footer>
+			<p>I Abhipsa Dash hereby declare that the above mentioned information is correct up to my knowledge and I bear the responsibility for the correctness of the above mentioned particulars.
+			</p>
+		</footer>
+	</div>				
+</body>
+</html>
